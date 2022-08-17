@@ -15,7 +15,6 @@ body {
   font-family: var(--main-font);
   color: var(--main-dark);
   letter-spacing: 0.03em;
-  font-weight: 400;
 }
 .list {
   list-style: none;
@@ -122,7 +121,6 @@ a {
   text-transform: uppercase;
 }
 .advantages-subtitle {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
 
@@ -168,7 +166,6 @@ a {
   text-align: center;
 }
 .team-list-subtitle {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
 
@@ -197,7 +194,6 @@ a {
 .list {
 }
 .f-nav {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
 }
