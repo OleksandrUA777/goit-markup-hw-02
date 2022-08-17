@@ -19,7 +19,7 @@ body {
 .list {
   list-style: none;
 }
-a {
+.link {
   text-decoration: none;
 }
 /* header */
@@ -55,11 +55,9 @@ a {
 .tel {
   color: var(--main-light);
 }
-.active {
-  color: var(--main-hover);
-}
 .nav:focus,
-.nav:hover {
+.nav:hover,
+.active {
   color: var(--main-hover);
 }
 /* main */

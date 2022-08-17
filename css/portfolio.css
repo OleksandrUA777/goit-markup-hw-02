@@ -21,10 +21,10 @@ body {
 .list {
   list-style: none;
 }
-a {
+/* header */
+.link {
   text-decoration: none;
 }
-/* header */
 .nav-logo {
   font-weight: 700;
   font-size: 26px;
