@@ -1,7 +1,5 @@
 :root {
-  --text-size: 14px;
-  --text-secondary-size: 16px;
-  --text-title-photo-size: 18px;
+  /* color */
   --main-dark: #212121;
   --main-light: #757575;
   --main-white: #ffffff;
@@ -26,11 +24,13 @@ a {
   text-decoration: none;
 }
 /* header */
+.header {
+  border-bottom: 1px solid #ececec;
+}
 .nav-logo {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
 
   color: var(--main-dark);
 }
@@ -119,15 +119,12 @@ a {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .advantages-subtitle {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
-
-  letter-spacing: 0.03em;
 
   color: var(--main-light);
 }
@@ -137,7 +134,6 @@ a {
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
-  letter-spacing: 0.03em;
 
   color: #212121;
 }
@@ -159,8 +155,7 @@ a {
 .list {
 }
 .team-list-item {
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 
   background-color: var(--main-white);
@@ -171,7 +166,6 @@ a {
   line-height: 1.2;
 
   text-align: center;
-  letter-spacing: 0.03em;
 }
 .team-list-subtitle {
   font-weight: 400;
@@ -179,7 +173,6 @@ a {
   line-height: 1.2;
 
   text-align: center;
-  letter-spacing: 0.03em;
 
   color: #757575;
 }
@@ -191,7 +184,6 @@ a {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
 
   color: var(--main-white);
 }
@@ -208,8 +200,6 @@ a {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
-
-  letter-spacing: 0.03em;
 }
 .f-nav:hover,
 .f-nav:focus {
