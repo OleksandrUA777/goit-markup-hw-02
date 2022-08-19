@@ -31,7 +31,7 @@ body {
   font-size: 26px;
   line-height: 1.2;
 
-  color: var(--main-dark);
+  color: #000;
 }
 .nav-span {
   font-family: var(--secondary-font);

@@ -31,7 +31,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.03em;
 
-  color: var(--main-dark);
+  color: #000;
 }
 .nav-span {
   font-family: var(--secondary-font);
@@ -105,21 +105,6 @@ body {
 .current-btn:hover,
 .current-btn:focus {
   background-color: #188ce8;
-}
-.btn-one {
-  width: 73px;
-}
-.btn-two {
-  width: 128px;
-}
-.btn-three {
-  width: 112px;
-}
-.btn-four {
-  width: 103px;
-}
-.btn-five {
-  width: 130px;
 }
 /* cards */
 .list {
