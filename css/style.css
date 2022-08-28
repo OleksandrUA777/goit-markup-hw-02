@@ -14,15 +14,6 @@
   --secondary-font: 'Raleway', sans-serif;
 }
 /* reset */
-h1,
-h2,
-h3,
-ul,
-li,
-p {
-  margin: 0;
-  padding: 0;
-}
 body {
   font-family: var(--main-font);
   color: var(--main-dark);
@@ -38,15 +29,7 @@ body {
 .header-container {
   border-bottom: 1px solid #ececec;
 }
-.container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
 
-  outline: 2px solid red;
-}
 .nav-container {
 }
 .nav-logo {
